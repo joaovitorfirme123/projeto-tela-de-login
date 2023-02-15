@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 *{
     padding: 0;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     background-color: dodgerblue;
@@ -29,5 +30,42 @@ body{
     width: 400px;
     height: 600px;
     float: right;
-    position: static;
+    display: flex;
+    display: block;
+}
+.login-inputs{
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6vh;
+    width: 300px;
+}
+.password-input{
+    height: 25px;
+    border: solid rgb(189, 203, 250);
+    border-radius: 12px;
+    margin-top: 0.5vh;
+}
+.email-input{
+    height: 25px;
+    border: solid rgb(189, 203, 250);
+    border-radius: 12px;
+    margin-top: 0.5vh;
+}
+.login-button{
+    margin-top: 2vh;
+    width: 80px;
+    height: 30px;
+}
+.login-container-title{
+    margin-top: 24vh;
+}
+.sign-up{
+    display:flex;
+    
+    
+}
+.sign-up-button{
+    
 }
