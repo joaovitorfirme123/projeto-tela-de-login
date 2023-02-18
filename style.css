@@ -63,9 +63,10 @@ body{
   max-width: 120px;
 }
 .login-container-title{
-    
-    padding-left: 45px;
-    padding-top: 120px;
+    padding: 40px 0px 80px 0px;
+    font-weight: 60;
+    font-size: 40px;
+    color: rgb(44, 44, 44);
 }
 .sign-up{
     display:flex;
