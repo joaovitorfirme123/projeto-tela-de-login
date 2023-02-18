@@ -33,29 +33,39 @@ body{
     display: block;
 }
 .login-inputs{
-    padding-left: 45px;
+}
+.login-content-information{
+    padding: 70px 0px 30px 45px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 300px;
 }
 .password-input{
     height: 25px;
     border: solid rgb(189, 203, 250);
     border-radius: 12px;
-    
+    width: 300px;
 }
 .email-input{
     height: 25px;
     border: solid rgb(189, 203, 250);
     border-radius: 12px;
-    
+    width: 300px;
+}
+.forgot-password{
+    text-decoration: none;
+    color: gray;
+    padding: 2px 0px 0px 195px;
+    font-size: 12px;
 }
 .login-button{
-
+  padding: 5px 7px 5px 7px;
+  max-width: 120px;
 }
 .login-container-title{
     
+    padding-left: 45px;
+    padding-top: 120px;
 }
 .sign-up{
     display:flex;
