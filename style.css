@@ -6,6 +6,7 @@
 }
 body{
     background-color: dodgerblue;
+    padding-top: 70px;
 }
 
 .login-screen {
@@ -13,7 +14,6 @@ body{
     height: 600px;
     background-color: white;
     margin: 0 auto;
-    margin-top: 100px;
     border-radius: 10px;
 }
 .vectorcomp-image{
@@ -23,7 +23,6 @@ body{
     align-items: center;
     width: 500px;
     height: 600px;
-    
 }
 .login-container{
     background-color: rgb(232, 231, 253);
@@ -34,32 +33,29 @@ body{
     display: block;
 }
 .login-inputs{
-    margin-left: 4vw;
+    padding-left: 45px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 6vh;
     width: 300px;
 }
 .password-input{
     height: 25px;
     border: solid rgb(189, 203, 250);
     border-radius: 12px;
-    margin-top: 0.5vh;
+    
 }
 .email-input{
     height: 25px;
     border: solid rgb(189, 203, 250);
     border-radius: 12px;
-    margin-top: 0.5vh;
+    
 }
 .login-button{
-    margin-top: 2vh;
-    width: 80px;
-    height: 30px;
+
 }
 .login-container-title{
-    margin-top: 24vh;
+    
 }
 .sign-up{
     display:flex;
