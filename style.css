@@ -8,7 +8,10 @@ body{
     background-color: dodgerblue;
     padding-top: 70px;
 }
-
+input:focus {
+    outline: none;
+  }
+  
 .login-screen {
     width: 900px;
     height: 600px;
@@ -32,41 +35,62 @@ body{
     display: flex;
     display: block;
 }
+.login-container-title{
+    padding: 0px 0px 50px 0px;
+    font-weight: 60;
+    font-size: 40px;
+    color: rgb(44, 44, 44);
+  
+}
 .login-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 .login-content-information{
-    padding: 70px 0px 30px 45px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .password-input{
-    height: 25px;
-    border: solid rgb(189, 203, 250);
+    max-width: 300px;
+    border: 1px solid rgb(189, 203, 250);
     border-radius: 12px;
-    width: 300px;
+    padding: 8px;
 }
 .email-input{
-    height: 25px;
-    border: solid rgb(189, 203, 250);
+    max-width: 300px;
+    border: 1px solid rgb(189, 203, 250);
     border-radius: 12px;
-    width: 300px;
+    padding: 8px;
 }
 .forgot-password{
     text-decoration: none;
     color: gray;
     padding: 2px 0px 0px 195px;
     font-size: 12px;
+    letter-spacing: 0.2px;
 }
 .login-button{
-  padding: 5px 7px 5px 7px;
-  max-width: 120px;
+  padding: 6px 0px 6px 0px;
+  max-width: 100px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(12, 117, 255);
+  border: 1px solid transparent;
+  letter-spacing: 0.5px;
+  font-size: 14px;
 }
-.login-container-title{
-    padding: 40px 0px 80px 0px;
-    font-weight: 60;
-    font-size: 40px;
-    color: rgb(44, 44, 44);
+.login-button:hover{
+    padding: 6px 0px 6px 0px;
+    max-width: 100px;
+    border-radius: 20px;
+    color: rgb(12, 117, 255);
+    background-color: rgb(232, 231, 253);
+    border: 1px solid rgb(12, 117, 255);
+    font-size: 14px;
+    letter-spacing: 0.5px;
 }
 .sign-up{
     display:flex;
