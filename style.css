@@ -73,7 +73,7 @@ input:focus {
     letter-spacing: 0.2px;
 }
 .login-button{
-  padding: 6px 0px 6px 0px;
+    padding: 6px 24px;
   max-width: 100px;
   border-radius: 20px;
   color: white;
@@ -83,14 +83,18 @@ input:focus {
   font-size: 14px;
 }
 .login-button:hover{
-    padding: 6px 0px 6px 0px;
-    max-width: 100px;
-    border-radius: 20px;
     color: rgb(12, 117, 255);
     background-color: rgb(232, 231, 253);
     border: 1px solid rgb(12, 117, 255);
-    font-size: 14px;
-    letter-spacing: 0.5px;
+}
+.login-button-checkbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remember-me{
+    margin-right: 4px;
 }
 .sign-up{
     display:flex;
