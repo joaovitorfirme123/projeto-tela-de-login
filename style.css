@@ -6,7 +6,6 @@
 }
 body{
     background-color: dodgerblue;
-    padding-top: 70px;
 }
 input:focus {
     outline: none;
@@ -17,6 +16,7 @@ input:focus {
     height: 600px;
     background-color: white;
     margin: 0 auto;
+    margin-top: 70px;
 }
 .vectorcomp-image{
     position: relative;
@@ -126,4 +126,21 @@ input:focus {
     background-color: rgb(12, 117, 255);
     color: white;
     border: 1px solid transparent;
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+    .body{
+        padding: 0;
+    }
+    .vectorcomp-image{
+        display: none;
+    }
+    .login-screen{
+        width: 100%;
+        margin-top: 0;
+    }    
+    .login-container{
+        height: 100vh;
+        width: 100vw;
+    }
 }
